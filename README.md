@@ -1,5 +1,5 @@
-# Art_Reflection
-The artful whispering Echoes
+# Art_Reflection_Project
+The Artful Whispering Echoes
 
 Scope of the Project:
 • Showcase museum collection, exhibitions, events, and resources.
