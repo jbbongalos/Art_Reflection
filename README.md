@@ -1,7 +1,7 @@
 # Art_Reflection_Project
 The Artful Whispering Echoes
 
-Scope of the Project:
+# Scope of the Project:
 • Showcase museum collection, exhibitions, events, and resources.
 • Implement searchable database for artwork with images and
 descriptions.
@@ -12,7 +12,7 @@ descriptions.
 • Tutorial and tips
 • Commissions
 
-Limitation of the Project:
+# Limitation of the Project:
 • Focus on online presentation, not physical museum experience.
 • Limited interactive features.
 • Content updates based on available resources.
