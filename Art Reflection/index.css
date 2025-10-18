@@ -1,0 +1,197 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: auto;
+    box-sizing: border-box;
+    background-image: url("image-bg/bbrown.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    padding: 1%;
+    background-size:auto;
+    margin: 8%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    justify-content:space-evenly;
+    position: fixed;
+    top: 0; 
+    left: 0; 
+    width: 100%;
+    background: url("image-bg/bbrown.png");
+    padding: .5em;
+    z-index: 1000px; 
+    margin: 0 0;
+}
+
+nav ul li {
+    display: inline;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    word-spacing: 20em;
+}
+
+nav ul li a:hover {
+    color: rgb(185, 64, 84);
+} 
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    color: white; 
+    text-align: center;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.logo {
+    width: 700px;
+    height: 100%;
+    margin-top: 40px;
+    margin-right: 50px
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    max-width: 100%;
+    position: relative;
+}
+
+.text h3 {
+    position: absolute;
+    margin-bottom: 25%;
+    text-align: center;
+    font-size: 3.5rem;
+    line-height: 1rem;
+    font-family:'Times New Roman', Times, serif
+}
+
+.text h4 {
+    margin-bottom: 25%;
+    font-size: 2rem;
+}
+
+
+.text h1 {
+    margin: 45%;
+    padding: 30px;
+    font-family: cursive;
+    font-size: 6rem;
+    color: white;
+    width: 130%;
+    text-align: center;
+    line-height: 1rem;
+    margin-bottom: 10px;
+}
+
+section {
+    padding: 13px;
+    max-width: 900vw;
+    margin: .5% auto;
+    max-width: 90%;
+    color: rgb(19, 2, 2);
+    background-image: url("image-bg/abrown.png");
+    border-radius: 27px;
+    border: 10%;
+    text-align: justify;
+    right: 4.5em;
+}
+
+section p {
+    font-family: serif;
+    text-align: justify;
+}
+
+h2{
+    text-align: center;
+}
+
+.image{
+    display:flex;
+    gap: 20px;
+}
+
+.museums-image{
+    height:175px;
+}
+
+.event {
+    justify-content: center;
+    object-fit: cover;
+}
+
+.event img{
+    margin-left: 30%;
+}
+
+.gallery ul {
+    list-style: none;   
+    justify-content: center;
+}
+  
+.gallery li {
+    margin: 1%;
+    padding: .5%;
+    justify-content: center;
+}
+  
+.gallery img {    
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+    
+form label {
+    margin: 10px 0 10px;
+}
+
+form input, form textarea {
+    padding: 5px;
+    border: 1px solid #861313;
+    border-radius: 4px;
+}
+
+form button {
+    margin-top: 10px;
+    padding: 10px;
+    background: #333;
+    color: #8b2d2d; 
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    background: rgba(0, 0, 255, 0.963);
+    color: #fff;
+    padding: .1%;
+}
+
