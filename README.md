@@ -25,3 +25,11 @@ descriptions.
 - Limited Accessibility Features
 - Basic Interactivity
 
+
+# Contents
+- ✅ Museum collections and artwork showcase
+- ✅ Exhibitions and events information
+- ✅ Artwork descriptions and images
+- ✅ Art process, tutorials, and tips
+- ✅ Audience engagement and commissions
+- ✅ HTML and CSS source files
